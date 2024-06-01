@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url('xyz.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    border: 1px solid indianred;
+    background: transparent;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #ff6347;
+    color: white;
+    cursor: pointer;
+}
+
+.register a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: indianred;
+}
+
+.register a:hover {
+    border: 1px solid indianred;
+    background: transparent;
+}
+
+.h-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.h-text span {
+    letter-spacing: 5px;
+}
+
+.main-title {
+    font-size: 4em;
+}
+
+.h-text a {
+    text-decoration: none;
+    background: indianred;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+
+.h-text a:hover {
+    border: 1px solid indianred;
+    background: transparent;
+}
+
+main {
+    padding: 20px;
+}
+
+.content-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: transparent;
+    color: #fff;
+    margin: 20px 0;
+    border: none;
+}
+
+.content-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.content-section p {
+    font-size: 1.2em;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    background: rgba(51, 51, 51, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-media {
+    margin-bottom: 10px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-media img {
+    width: 16px;
+    height: 16px;
+}
+
+.contact-section {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 60px 20px;
+}
+
+.contact-section select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    width: calc(100% - 40px);
+    margin-bottom: 20px;
+}
+
+.contact-section textarea {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    width: calc(100% - 40px);
+    height: 80px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.contact-section button[type="submit"] {
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff6347;
+    color: white;
+}
